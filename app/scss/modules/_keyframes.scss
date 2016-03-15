@@ -1,0 +1,12 @@
+@keyframes showInv{
+	from{
+		.invList li{
+		//	-webkit-transform: translateY(10px);
+		}
+	}
+	to{
+		.invList li{
+	//		-webkit-transform: translateY(0);
+		}
+	}
+}

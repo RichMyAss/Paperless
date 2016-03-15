@@ -1,0 +1,487 @@
+.invOverlay.ng-hide {
+  opacity: 0;
+  transform: scale(0.8); }
+
+.invOverlay {
+  opacity: 1;
+  transform: scale(1); }
+
+.invOverlay.ng-hide-add, .invOverlay.ng-hide-remove {
+  transition: 0.3s; }
+
+.invOverlay.ng-hide-add-active,
+.invOverlay.ng-hide-remove-active {
+  transition: 0.3s; }
+
+@keyframes showInv {}
+body {
+  top: 0;
+  padding: 0;
+  margin: 0;
+  background: #fbfbfb;
+  -webkit-font-smoothing: antialiased; }
+
+.container {
+  margin: 0 auto;
+  width: 1000px; }
+
+html {
+  overflow-y: scroll; }
+
+#sidebar {
+  width: 300px;
+  height: 100%;
+  text-align: center;
+  font-color: #333;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  position: fixed;
+  top: 50px; }
+  #sidebar ul {
+    margin: 0;
+    padding: 0; }
+    #sidebar ul li {
+      margin: 8px auto;
+      width: 70%;
+      height: 50px;
+      line-height: 50px;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      border: 1px solid #fbfbfb;
+      border-radius: 3px;
+      padding-left: 20px;
+      text-align: left;
+      background: #fbfbfb;
+      list-style: none;
+      cursor: pointer;
+      -webkit-transition: 0.15s; }
+    #sidebar ul li:hover {
+      background: #0fbfca;
+      color: #fff;
+      border: 1px solid #0da9b2; }
+    #sidebar ul .invActive {
+      background: #0fbfca;
+      color: #fff;
+      border: 1px solid #0da9b2; }
+  #sidebar .invInfo {
+    margin: auto;
+    width: 70%; }
+
+header {
+  background: #fbfbfb;
+  width: 100%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  height: 100px; }
+  header #logo {
+    text-transform: uppercase;
+    line-height: 40px;
+    color: #333333;
+    margin-left: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+    float: left; }
+  header h2 {
+    line-height: 40px;
+    margin-right: 10px; }
+  header .searchbar {
+    background: #0fbfca;
+    width: 100%;
+    height: 60px;
+    margin-top: 40px; }
+    header .searchbar .container .uploadInvBtn {
+      float: right;
+      height: 50px;
+      width: 310px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      margin-top: 5px;
+      -webkit-box-sizing: border-box;
+      color: rgba(255, 255, 255, 0.5);
+      padding-left: 20px;
+      line-height: 50px;
+      font-size: 13px;
+      font-weight: 300;
+      transition: .15s;
+      cursor: pointer; }
+      header .searchbar .container .uploadInvBtn:hover {
+        border: 1px solid white;
+        color: white; }
+    header .searchbar #searchbar {
+      margin-top: 5px;
+      height: 30px;
+      padding: 10px 20px;
+      line-height: 50px;
+      background: none;
+      border: none;
+      float: left;
+      color: white;
+      width: 640px;
+      transition: 0.15s;
+      border: 1px solid rgba(255, 255, 255, 0); }
+      header .searchbar #searchbar span {
+        opacity: 0.5; }
+      header .searchbar #searchbar::-webkit-input-placeholder {
+        color: white;
+        font-weight: 300; }
+      header .searchbar #searchbar:focus, header .searchbar #searchbar:hover {
+        background: #0eb2bc;
+        border: 1px solid #10ccd8; }
+  header::-webkit-input-placeholder {
+    color: white;
+    font-weight: 300; }
+  header #userID {
+    text-align: right;
+    float: right; }
+
+body {
+  font-size: 13px;
+  font-family: "proxima-nova"; }
+
+h2 {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0; }
+
+h3 {
+  font-size: 13px;
+  font-style: italic;
+  margin: 0;
+  color: #cccccc;
+  font-weight: normal; }
+
+h4 {
+  font-size: 13px;
+  color: #333333;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-weight: normal; }
+  h4 span {
+    color: #cccccc; }
+
+h5 {
+  text-align: right;
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px; }
+
+#searchbar {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0; }
+
+.invData h6 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 40px; }
+
+#invoiceArea {
+  width: 100%;
+  margin: 80px 300px; }
+  #invoiceArea .invWrapper {
+    height: 1300px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    position: relative; }
+    #invoiceArea .invWrapper .invoice {
+      float: left;
+      background: #ccc;
+      width: 800px;
+      height: 1200px;
+      margin: 50px 50px;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+      border-radius: 2px; }
+    #invoiceArea .invWrapper .invoice {
+      background: url("../img/invoice1.jpg"); }
+    #invoiceArea .invWrapper .linkInv {
+      background: whitesmoke;
+      width: 300px;
+      position: absolute;
+      margin-left: 275px;
+      bottom: -10px; }
+      #invoiceArea .invWrapper .linkInv a {
+        color: #ccc;
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+        margin: 0 20px 2px;
+        font-style: italic; }
+      #invoiceArea .invWrapper .linkInv a:hover {
+        color: #aaa; }
+    #invoiceArea .invWrapper .linkInv:nth-child(0) {
+      display: none; }
+
+#invForm {
+  background: #0fbfca;
+  padding: 20px;
+  width: 270px;
+  float: right;
+  color: white; }
+  #invForm h1 {
+    margin-top: 0;
+    font-weight: 100; }
+  #invForm ::-webkit-input-placeholder {
+    color: #0fbfca;
+    font-style: italic;
+    font-weight: 500; }
+  #invForm input:focus, #invForm textarea:focus, #invForm .formInput:focus {
+    outline: none; }
+  #invForm input, #invForm textarea, #invForm .formInput {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: #0fbfca;
+    height: 50px;
+    border: none; }
+  #invForm textarea {
+    height: 160px;
+    line-height: 30px;
+    padding-top: 10px; }
+  #invForm .invSubmit {
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    color: #fff;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 17px;
+    padding-top: 0;
+    box-shadow: none;
+    background: #0fbfca;
+    text-align: left;
+    transition: 0.15s; }
+    #invForm .invSubmit:hover {
+      background: white;
+      color: #0fbfca; }
+  #invForm p {
+    width: 115px;
+    margin: 20px auto 0;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1px;
+    border-bottom: 1px dotted white;
+    cursor: pointer;
+    -webkit-transition: 0.15s;
+    opacity: 0.5;
+    text-align: left; }
+    #invForm p:hover {
+      opacity: 1; }
+  #invForm .invFormList {
+    position: absolute;
+    background: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+    overflow-y: scroll;
+    width: 270px;
+    margin: 0;
+    padding: 0;
+    max-height: 500px; }
+    #invForm .invFormList li {
+      color: #0fbfca;
+      height: 40px;
+      line-height: 40px;
+      cursor: pointer;
+      padding-left: 10px;
+      overflow: hidden;
+      color: #333333; }
+      #invForm .invFormList li:hover {
+        background: #f3fefe; }
+      #invForm .invFormList li span {
+        font-style: italic;
+        font-weight: 300;
+        color: #0fbfca; }
+        #invForm .invFormList li span:before {
+          content: '|';
+          color: #cccccc;
+          padding: 0 5px; }
+
+body.invOverview .invoicesView {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 200px; }
+  body.invOverview .invoicesView .container {
+    margin: 15px auto; }
+    body.invOverview .invoicesView .container h1 {
+      font-weight: 100;
+      color: #cccccc;
+      font-size: 30px;
+      padding: 50px 50px 0 0;
+      display: inline-block;
+      transition: 0.15s; }
+      body.invOverview .invoicesView .container h1.active, body.invOverview .invoicesView .container h1:hover {
+        color: #333333; }
+      body.invOverview .invoicesView .container h1:not(.active) {
+        cursor: pointer; }
+  body.invOverview .invoicesView ul.invList {
+    overflow: auto;
+    padding: 0; }
+    body.invOverview .invoicesView ul.invList li {
+      float: left;
+      list-style: none;
+      margin: 0;
+      width: 100%;
+      border-radius: 5px;
+      -webkit-box-sizing: border-box;
+      border-bottom: 1px solid #f3f3f3;
+      height: auto;
+      transition: 0.3s; }
+      body.invOverview .invoicesView ul.invList li, body.invOverview .invoicesView ul.invList li h2, body.invOverview .invoicesView ul.invList li h5, body.invOverview .invoicesView ul.invList li img {
+        transition: 0.15s; }
+      body.invOverview .invoicesView ul.invList li:hover {
+        background: #f8f8f8; }
+      body.invOverview .invoicesView ul.invList li .container {
+        margin: 10px auto;
+        overflow: auto;
+        height: 80px;
+        cursor: pointer;
+        overflow: visible; }
+        body.invOverview .invoicesView ul.invList li .container:hover h2 {
+          color: #0fbfca; }
+        body.invOverview .invoicesView ul.invList li .container .invTextGroup {
+          float: left;
+          padding-top: 23px; }
+          body.invOverview .invoicesView ul.invList li .container .invTextGroup span {
+            font-style: italic;
+            color: #cccccc; }
+          body.invOverview .invoicesView ul.invList li .container .invTextGroup h3 {
+            margin-top: -3px; }
+        body.invOverview .invoicesView ul.invList li .container .invDetailsTextGroup {
+          float: right;
+          width: 310px;
+          margin: 0;
+          margin-top: 20px; }
+          body.invOverview .invoicesView ul.invList li .container .invDetailsTextGroup h4 {
+            float: left; }
+          body.invOverview .invoicesView ul.invList li .container .invDetailsTextGroup h5 {
+            float: right; }
+        body.invOverview .invoicesView ul.invList li .container .invImgCircle {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          overflow: hidden;
+          -webkit-box-sizing: border-box;
+          border: 3px solid white;
+          background: #ccc;
+          float: left;
+          margin-right: 30px;
+          box-shadow: inset -2px 2px 7px rgba(0, 0, 0, 0.08), 0 0 0 1px #f3f3f3;
+          transition: .5s; }
+          body.invOverview .invoicesView ul.invList li .container .invImgCircle img {
+            width: 160px;
+            height: 205px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+            -webkit-transition: 0.15s;
+            cursor: pointer;
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+            left: -100px;
+            top: 15px; }
+      body.invOverview .invoicesView ul.invList li.approved h3 {
+        color: #cccccc; }
+      body.invOverview .invoicesView ul.invList li.approved h5 {
+        color: #0fbfca; }
+      body.invOverview .invoicesView ul.invList li.approved .invImgCircle {
+        background: #0fbfca; }
+      body.invOverview .invoicesView ul.invList li.approved:hover .invImgCircle {
+        background: #11d5e2; }
+      body.invOverview .invoicesView ul.invList li.rejected h5 {
+        color: #d96c6c; }
+      body.invOverview .invoicesView ul.invList li.rejected .invImgCircle {
+        background: #d96c6c; }
+      body.invOverview .invoicesView ul.invList li.rejected:hover .invImgCircle {
+        background: #e39595; }
+      body.invOverview .invoicesView ul.invList li.new {
+        background: white;
+        border: 1px solid #cccccc; }
+        body.invOverview .invoicesView ul.invList li.new h2 {
+          color: #333333;
+          font-weight: bold; }
+        body.invOverview .invoicesView ul.invList li.new h5 {
+          color: #cccccc; }
+        body.invOverview .invoicesView ul.invList li.new .invImgCircle {
+          background: #cccccc; }
+        body.invOverview .invoicesView ul.invList li.new:hover .invImgCircle {
+          background: #e6e6e6; }
+      body.invOverview .invoicesView ul.invList li.new ~ .new {
+        background: none;
+        border: 1px solid #f3f3f3; }
+        body.invOverview .invoicesView ul.invList li.new ~ .new:hover {
+          background: #f3f3f3; }
+        body.invOverview .invoicesView ul.invList li.new ~ .new h2 {
+          color: #333333;
+          font-weight: normal; }
+        body.invOverview .invoicesView ul.invList li.new ~ .new:hover h2 {
+          color: #0fbfca; }
+        body.invOverview .invoicesView ul.invList li.new ~ .new:hover .invImgCircle {
+          background: #e6e6e6; }
+      body.invOverview .invoicesView ul.invList li .appended {
+        transition: 0.3s;
+        height: 1000px;
+        overflow: hidden; }
+      body.invOverview .invoicesView ul.invList li.invHidden .appended {
+        height: 0;
+        opacity: 0; }
+
+.invOverlay {
+  background: red;
+  height: 300px;
+  width: 100%; }
+  .invOverlay img {
+    position: absolute;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    z-index: 9;
+    width: 500px;
+    left: 50%;
+    margin: 125px 0 0 -470px; }
+  .invOverlay img.invOpened {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); }
+  .invOverlay .invDataPanel {
+    width: 300px;
+    height: 500px;
+    background: white;
+    margin: 125px auto;
+    position: absolute;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    transition: 0.15s;
+    transition-delay: 0.15s; }
+  .invOverlay .invOverlayContainer {
+    width: 1000px;
+    margin: auto;
+    height: 100%; }
+
+.appended {
+  width: 100%;
+  height: auto;
+  background: #f5f5f5;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1);
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  overflow: auto;
+  transition: 0.3s; }
+  .appended .invWrapper {
+    margin: 20px auto;
+    width: 1000px; }
+    .appended .invWrapper img {
+      width: 670px;
+      float: left;
+      margin-bottom: 20px;
+      border: 1px solid #f3f3f3;
+      -webkit-box-sizing: border-box; }
+
+.openInv {
+  display: block !important;
+  height: auto; }

@@ -1,0 +1,217 @@
+body.invOverview{
+
+	.invoicesView{
+
+		width:100%;
+		margin-top:100px;
+		margin-bottom:200px;
+
+		.container{
+			
+			margin:15px auto;
+
+			h1{
+				font-weight:100;
+				color:$lightgrey;
+				font-size:30px;
+				padding:50px 50px 0 0;
+				display:inline-block;
+				transition: 0.15s;
+				
+
+				&.active, &:hover{
+					color:$darkgrey;
+				}
+				&:not(.active){
+					cursor:pointer;
+				}
+
+			}
+		}
+
+		ul.invList{
+
+			overflow:auto;
+			padding:0;
+
+			li{
+				float:left;
+				list-style: none;
+				margin:0;
+				width:100%;
+				border-radius:5px;
+				-webkit-box-sizing: border-box;
+				border-bottom:1px solid $verylightgrey;
+				height:auto;
+				transition:0.3s;
+
+				&, h2, h5, img{
+					transition:0.15s;
+				}
+				&:hover{
+					background:lighten($verylightgrey,2%);
+				}
+				
+				.container{
+					
+					margin:10px auto;
+					overflow:auto;
+					height:80px;
+					cursor:pointer;
+					overflow:visible;
+
+					&:hover{
+
+						h2{
+							color:$primary;
+
+						}
+						
+					}
+
+					.invTextGroup{
+						float:left;
+						padding-top:23px;
+
+						span{
+							font-style:italic;
+							color:$lightgrey;
+						}
+						h3{
+							margin-top:-3px;
+						}
+					}
+					.invDetailsTextGroup{
+						float:right;
+						width:310px;
+						margin:0;
+						margin-top:20px;
+						
+						h4{
+							float:left;
+						}
+						h5{
+							float:right;
+						}
+					}
+					.invImgCircle{
+						
+						width:80px;
+						height:80px;
+						border-radius:50%;
+						overflow:hidden;
+						-webkit-box-sizing:border-box;
+						border:3px solid white;
+						background:#ccc;
+						float:left;
+						margin-right:30px;
+						box-shadow: inset -2px 2px 7px rgba(0,0,0,0.08), 0 0 0 1px $verylightgrey;
+						transition:.5s;
+
+						img{
+							width:160px;
+							height:205px;
+							box-shadow:0 1px 2px rgba(0,0,0,0.15);
+							-webkit-transition: 0.15s;
+							cursor: pointer;
+							border-radius:3px;
+							cursor: pointer;
+							position: relative;
+							left: -100px;
+							top: 15px;
+						}
+					}
+
+				}
+				&.approved{
+					h3{
+						color:$lightgrey;
+					}
+					h5{
+						color:$primary;
+					}
+					.invImgCircle{
+						background:$primary;
+					}
+					&:hover{
+						.invImgCircle{
+							background:lighten($primary,5%);
+						}
+					}
+							
+
+				}
+				&.rejected{
+					h5{
+						color:$darkred;
+					}
+					.invImgCircle{
+						background:$darkred;
+					}
+
+					&:hover{
+						.invImgCircle{
+							background:lighten($darkred,10%);
+						}
+					}
+				} 
+				&.new{
+
+					background:white;
+					border: 1px solid $lightgrey;			
+
+					h2{
+						color:$darkgrey;
+						font-weight:bold;
+					}
+					h5{
+						color:$lightgrey;
+					}
+					.invImgCircle{
+						background:$lightgrey;
+					}
+					&:hover{
+						.invImgCircle{
+							background:lighten($lightgrey,10%);
+						}
+					}
+						
+				} 
+				&.new ~ .new{
+
+					background:none;
+					border: 1px solid $verylightgrey;
+
+					&:hover{
+						background:$verylightgrey;
+					}
+
+					h2{
+						color:$darkgrey;
+						font-weight:normal;
+					}
+					&:hover{
+						h2{
+							color:$primary;
+						}
+						.invImgCircle{
+							background:lighten($lightgrey,10%);
+						}
+					}
+				}
+				.appended{
+					transition:0.3s;
+					height:1000px;
+					overflow: hidden;
+
+				}
+				
+				&.invHidden .appended{
+
+					height:0;
+					opacity:0;
+				}  
+			}
+		}
+	}
+}

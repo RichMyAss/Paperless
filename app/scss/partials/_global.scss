@@ -1,0 +1,14 @@
+body{
+	top:0;
+	padding:0;
+	margin:0;
+	background:$bg_white;
+	-webkit-font-smoothing:antialiased;
+}
+.container{
+	margin:0 auto;
+	width:1000px;
+}
+html{
+	overflow-y:scroll;
+}

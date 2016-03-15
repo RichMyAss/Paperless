@@ -1,0 +1,265 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"webkit-tran",
+				"webkit-transition"
+			],
+			[
+				"tran",
+				"translateY"
+			],
+			[
+				"invoi",
+				"invoiceVisibility"
+			],
+			[
+				"hide",
+				"hideInvoices"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"pos",
+				"posY"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"webkit-tr",
+				"webkit-transition"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Richard/paperless/app/data/invoices.json",
+		"/C/Users/Richard/paperless/app/scss/partials/_invoiceForm.scss",
+		"/C/Users/Richard/paperless/app/scss/partials/_invOverview.scss",
+		"/C/Users/Richard/paperless/app/partials/form.html",
+		"/C/Users/Richard/paperless/app/js/controllers.js",
+		"/C/Users/Richard/paperless/app/data/contractors.json",
+		"/C/Users/Richard/paperless/app/data/properties.json",
+		"/C/Users/Richard/paperless/app/data/gl_codes.json",
+		"/C/Users/Richard/paperless/app/index.html",
+		"/C/Users/Richard/paperless/app/js/directives.js",
+		"/C/Users/Richard/paperless/app/js/flexSelect.js",
+		"/C/Users/Richard/paperless/app/scss/helpers/_variables.scss",
+		"/C/Users/Richard/paperless/app/partials/invoiceList.html",
+		"/C/Users/Richard/paperless/app/scss/partials/_header.scss",
+		"/C/Users/Richard/paperless/app/scss/partials/_invPopUp.scss",
+		"/C/Users/Richard/paperless/app/scss/modules/_angular-animations.scss",
+		"/C/Users/Richard/paperless/app/scss/partials/_typography.scss",
+		"/C/Users/Richard/paperless/app/partials/activeInvoice.html",
+		"/C/Users/Richard/paperless/app/js/app.js",
+		"/C/Users/Richard/paperless/app/scss/modules/_all.scss",
+		"/C/Users/Richard/paperless/app/js/interaction.js",
+		"/C/Users/Richard/paperless/bower.json",
+		"/C/Users/Richard/paperless/app/index3.html",
+		"/C/Users/Richard/paperless/app/template1.html",
+		"/C/Users/Richard/paperless/app/template2.html",
+		"/C/Users/Richard/paperless/app/scss/partials/_global.scss",
+		"/C/Users/Richard/paperless/app/scss/partials/_all.scss",
+		"/C/Users/Richard/paperless/app/scss/styles.scss",
+		"/C/Users/Richard/paperless/app/scss/helpers/_function.scss",
+		"/C/Users/Richard/paperless/app/scss/helpers/_all.scss",
+		"/C/Users/Richard/paperless/app/scss/_typography.scss",
+		"/C/Users/Richard/paperless/app/scss/_header.scss",
+		"/C/Users/Richard/paperless/app/scss/_invOverview.scss",
+		"/C/Users/Richard/paperless/app/scss/_invPopUp.scss",
+		"/C/Users/Richard/paperless/app/scss/base/_all.scss",
+		"/C/Users/Richard/paperless/app/scss/typography.scss",
+		"/C/Users/Richard/paperless/app/scss/invOverview.scss",
+		"/C/Users/Richard/paperless/app/scss/invoices.scss",
+		"/C/Users/Richard/paperless/app/scss/header.scss",
+		"/C/Users/Richard/paperless/app/scss/sidebar.scss",
+		"/C/Users/Richard/paperless/app/scss/invoiceForm.scss",
+		"/C/Users/Richard/paperless/app/css/styles.css",
+		"/C/Users/Richard/paperless/app/scss/layout.scss",
+		"/C/Users/Richard/paperless/app/css/typography.css",
+		"/C/Users/Richard/paperless/app/css/sidebar.css",
+		"/C/Users/Richard/paperless/app/partials/sidebar.html",
+		"/C/Users/Richard/paperless/README.md",
+		"/C/Users/Richard/paperless/app/invoice.json",
+		"/C/Users/Richard/paperless/app/partials/partial2.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"invsubmit",
+			"Submit",
+			"consol",
+			"250",
+			"myapp",
+			"partial1.html"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sidebar.html"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true
+}

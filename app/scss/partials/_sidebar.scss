@@ -1,0 +1,51 @@
+#sidebar{
+	width:300px;
+	height:100%;
+	text-align:center;
+	font-color:#333;
+	background:#fff;
+	box-shadow:0 0 30px rgba(0,0,0,0.1);
+	padding-top:30px;
+	position:fixed;
+	top:50px;
+	
+	ul{
+		
+		margin:0;
+		padding:0;
+
+		li{
+			margin:8px auto;
+			width:70%;
+			height:50px;
+			line-height:50px;
+			box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+			border:1px solid $bg_white;
+			border-radius: 3px;
+			padding-left:20px;
+			text-align:left;
+			background:$bg_white;
+			list-style: none;
+			cursor:pointer;
+			-webkit-transition: 0.15s;
+		}
+
+		li:hover{
+			background:$primary;
+			color:#fff;
+			border:1px solid darken($primary, 5%);
+		}
+
+		.invActive{
+			background:$primary;
+			color:#fff;
+			border:1px solid darken($primary, 5%);
+		}
+	}
+
+	.invInfo{
+		margin:auto;
+		width:70%;
+
+	}
+}

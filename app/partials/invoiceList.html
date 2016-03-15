@@ -1,0 +1,20 @@
+<li ng-repeat="invoice in invList | filter:searchQuery" data="{{invoice.id}}" class="invItem invHidden {{invoice.status || 'new'}}">
+    <div class="container">
+
+    	<div class="invImgCircle">
+    		<img ng-src="{{invoice.src}}" alt="{{invoice.title}}">
+    	</div>
+
+	    <div class="invTextGroup">
+	    	<h2>{{invoice.supplier || 'Fresh invoice'}} <span ng-if="invoice.property_name!=null">for</span> {{invoice.property_name}}</h2>
+	    	<h3>{{invoice.description || "Click to add details"}}</h3>
+	    </div>
+		<div class="invDetailsTextGroup">
+			<h4 class="invSummaryDate"><span>Received on </span>{{invoice.date}}</h4>
+	    	<h5>{{invoice.status || "New"}}</h5>
+		</div>
+	    
+		
+    </div>
+    <div class="appended" ng-include src="activeInvoice" ></div>
+</li>

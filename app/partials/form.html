@@ -1,0 +1,71 @@
+<h1>Enter Invoice Details</h1>
+<form ng-submit="invSubmit(); toggleInvoice()" >
+
+    <input 
+        ng-model="invoice.prop_code" 
+        name="property" 
+        placeholder="Enter Property Code" 
+        ng-focus="propertyDropdown=true">
+<ul class="invFormList" ng-show="propertyDropdown">
+    <li 
+        ng-repeat="property in propertyList | filter:invoice.prop_code"
+        value="{{property.napalis_id}}" 
+        ng-click="
+            invoice.prop_code=property.napalis_id;
+            invoice.property_name=property.property_name;
+            $parent.propertyDropdown=false">
+        {{property.napalis_id}} 
+        <span>{{property.property_name}}</span>
+    </li>
+</ul>
+
+<input 
+    ng-model="invoice.supplier" 
+    name="supplier" 
+    placeholder="Select Supplier" 
+    ng-focus="supplierDropdown=true">
+<ul class="invFormList" ng-show="supplierDropdown">
+    <li 
+        ng-repeat="contractor in contractorList | filter:invoice.supplier" 
+        value="{{contractor.vendor_id}}" 
+        ng-click="invoice.supplier=contractor.vendor_name;
+         $parent.supplierDropdown=false">
+        {{contractor.vendor_id}} 
+        <span>{{contractor.vendor_name}}</span>
+    </li>
+</ul>
+
+<input 
+    ng-model="invoice.gl_code" 
+    name="gl_code" 
+    placeholder="Select GL Code" 
+    ng-focus="glDropdown=true">
+<ul class="invFormList" ng-show="glDropdown">
+    <li 
+        ng-repeat="gl in glList | filter:invoice.gl_code" 
+        value="{{gl.code}}" 
+        ng-click="invoice.gl_code=gl.code; $parent.glDropdown=false">
+        {{gl.code}} 
+        <span>{{gl.name}}</span>
+    </li>
+</ul>
+
+    <textarea 
+        ng-model="invoice.description" 
+        name="description" 
+        rows="10" 
+        cols="4" 
+        placeholder="Enter a brief description">
+    </textarea>
+
+    <input 
+        type="submit" 
+        class="invSubmit" 
+        value="Approve invoice">
+    <p class="invReject"
+        ng-click="
+        invReject();
+        toggleInvoice();
+        ">Reject Invoice</p>
+
+</form>

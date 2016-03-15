@@ -1,0 +1,49 @@
+#invoiceArea{
+
+	width:100%;
+	margin:80px 300px;
+	
+	.invWrapper{
+
+		height:1300px;
+		border-bottom:1px solid rgba(0,0,0,0.05);
+		position:relative;
+
+		.invoice{
+			float:left;
+			background:#ccc;
+			width:800px;
+			height:1200px;
+			margin:50px 50px;
+			box-shadow:0 1px 1px rgba(0,0,0,0.15);
+			border-radius: 2px;
+		}
+
+		.invoice{
+			background:url('../img/invoice1.jpg');
+		}
+
+		.linkInv{
+		
+			background:rgb(245,245,245);
+			width:300px;
+			position:absolute;
+			margin-left:275px;
+			bottom:-10px;
+
+			a{
+				color: #ccc;
+				border-bottom:1px dotted rgba(0,0,0,.1);
+				margin:0 20px 2px;
+				font-style: italic;
+			}
+			a:hover{
+				color: #aaa;
+			}
+		}
+		.linkInv:nth-child(0){
+			display:none;
+		}
+		
+	}
+}

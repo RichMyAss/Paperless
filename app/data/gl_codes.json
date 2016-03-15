@@ -1,0 +1,321 @@
+[{
+    "code": 2613,
+    "linz_code": 7619,
+    "name": "H - Write Off",
+    "subtotal_to": "",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 215
+}, {
+    "code": 3100,
+    "linz_code": 7619,
+    "name": "H - Earthquake Costs",
+    "subtotal_to": "",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 277
+}, {
+    "code": 3101,
+    "linz_code": 7619,
+    "name": "H - Natural Disasters",
+    "subtotal_to": "",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 284
+}, {
+    "code": 3111,
+    "linz_code": 7631,
+    "name": "H - Contract, Rent Review & Inspection",
+    "subtotal_to": "",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 225
+}, {
+    "code": 3216,
+    "linz_code": 7619,
+    "name": "H - Miscellaneous",
+    "subtotal_to": "",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 246
+}, {
+    "code": 7835,
+    "linz_code": 7632,
+    "name": "H - Capital Expenditure",
+    "subtotal_to": "",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 262
+}, {
+    "code": 3112,
+    "linz_code": 7636,
+    "name": "H - General Grounds Maintenance",
+    "subtotal_to": "Grounds Maintenance",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 279
+}, {
+    "code": 3114,
+    "linz_code": 7636,
+    "name": "H - Lawn Mowing",
+    "subtotal_to": "Grounds Maintenance",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 265
+}, {
+    "code": 3025,
+    "linz_code": 7619,
+    "name": "H - Annual Subscriptions",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 224
+}, {
+    "code": 3210,
+    "linz_code": 7619,
+    "name": "H - Archive",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 240
+}, {
+    "code": 3208,
+    "linz_code": 7619,
+    "name": "H - Bank Fees",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 238
+}, {
+    "code": 3206,
+    "linz_code": 7639,
+    "name": "H - Body Corp Levies",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 236
+}, {
+    "code": 3207,
+    "linz_code": 7619,
+    "name": "H - BOT Asps",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 237
+}, {
+    "code": 3202,
+    "linz_code": 7630,
+    "name": "H - Contractor Inspections",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 233
+}, {
+    "code": 3203,
+    "linz_code": 7618,
+    "name": "H - Credit Checks",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 234
+}, {
+    "code": 3215,
+    "linz_code": 7618,
+    "name": "H - Debt Collection Fees",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 245
+}, {
+    "code": 3209,
+    "linz_code": 7638,
+    "name": "H - Electrical Code of Compliance",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 239
+}, {
+    "code": 3204,
+    "linz_code": 7640,
+    "name": "H - Insurance",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 235
+}, {
+    "code": 3200,
+    "linz_code": 7618,
+    "name": "H - Legal Fees",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 231
+}, {
+    "code": 3214,
+    "linz_code": 7618,
+    "name": "H - Letting Fees",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 244
+}, {
+    "code": 3213,
+    "linz_code": 7630,
+    "name": "H - Mileage",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 243
+}, {
+    "code": 3211,
+    "linz_code": 7623,
+    "name": "H - Surveying",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 241
+}, {
+    "code": 3201,
+    "linz_code": 7618,
+    "name": "H - Tenancy Tribunal",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 232
+}, {
+    "code": 3212,
+    "linz_code": 7618,
+    "name": "H - Tenant Reimbursements",
+    "subtotal_to": "H-Administration Costs",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 242
+}, {
+    "code": 3023,
+    "linz_code": 7634,
+    "name": "H - Rates",
+    "subtotal_to": "Rates",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 223
+}, {
+    "code": 3117,
+    "linz_code": 7634,
+    "name": "H - Water Rates",
+    "subtotal_to": "Rates",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 268
+}, {
+    "code": 3116,
+    "linz_code": 7633,
+    "name": "H - Electrical Maintenance",
+    "subtotal_to": "Repairs & Maintenance",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 267
+}, {
+    "code": 3120,
+    "linz_code": 7637,
+    "name": "H - Electricity",
+    "subtotal_to": "Repairs & Maintenance",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 289
+}, {
+    "code": 3113,
+    "linz_code": 7633,
+    "name": "H - General Repairs & Maintenance",
+    "subtotal_to": "Repairs & Maintenance",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 226
+}, {
+    "code": 3118,
+    "linz_code": 7633,
+    "name": "H - Glazier",
+    "subtotal_to": "Repairs & Maintenance",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 269
+}, {
+    "code": 3115,
+    "linz_code": 7633,
+    "name": "H - Plumbing",
+    "subtotal_to": "Repairs & Maintenance",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 266
+}, {
+    "code": 3119,
+    "linz_code": 7633,
+    "name": "H - Replacement Hot Water Cylinder",
+    "subtotal_to": "Repairs & Maintenance",
+    "account_type": "Expense",
+    "default_tax_code": "GSTINC",
+    "no_tax": "No",
+    "rental_account": "No",
+    "system_id": 270
+}]
