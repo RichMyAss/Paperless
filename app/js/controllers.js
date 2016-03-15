@@ -67,7 +67,7 @@ angular.module('myApp.controllers', [])
     $scope.openedInvoice = false;
 
     //FIREBASE INIT
-    var ref = new Firebase("https://paperlessdb.firebaseio.com/");
+    var ref = new Firebase("https://paperlessdb.firebaseio.com/invoices");
     var sync = $firebase(ref);
 
     //INVOICE TEMPLATE
