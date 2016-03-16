@@ -2,7 +2,8 @@
     <div class="container">
 
     	<div class="invImgCircle">
-    		<img ng-src="{{invoice.src}}" alt="{{invoice.title}}">
+    		<img ng-if="!invoice.type==pdf" ng-src="{{invoice.src}}" alt="{{invoice.title}}">
+    		<iframe ng-if="invoice.type==pdf" src="{{invoice.src}}" width="640" height="480"></iframe>
     	</div>
 
 	    <div class="invTextGroup">
